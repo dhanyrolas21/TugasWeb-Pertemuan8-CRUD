@@ -1,0 +1,101 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6fb;
+  color: #1c2438;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e2e6f0;
+  border-radius: 12px;
+  padding: 28px 32px;
+  box-shadow: 0 12px 30px -18px rgba(20, 30, 60, 0.25);
+}
+
+h2 { margin-top: 0; }
+
+a { color: #4f6bed; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.btn-add {
+  display: inline-block;
+  background: #4f6bed;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 12px 8px 18px 0;
+}
+.btn-add:hover { opacity: 0.9; text-decoration: none; }
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  min-width: 180px;
+  padding: 9px 12px;
+  border: 1px solid #d7dcea;
+  border-radius: 8px;
+  font-size: 0.92rem;
+}
+
+.search-form button {
+  background: #eef1fa;
+  border: 1px solid #d7dcea;
+  padding: 9px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td {
+  border: 1px solid #e2e6f0;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+th { background: #f0f2f9; }
+td a { margin-right: 10px; font-size: 0.85rem; }
+
+.alert {
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+.alert-success { background: #e7f7ee; color: #1c7a4c; }
+.alert-error { background: #fdebec; color: #b3261e; }
+
+form { margin-top: 18px; }
+.form-group { margin-bottom: 14px; display: flex; flex-direction: column; gap: 6px; }
+.form-group label { font-size: 0.85rem; font-weight: 600; }
+.form-group input,
+.form-group select {
+  padding: 9px 12px;
+  border: 1px solid #d7dcea;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+button[type="submit"] {
+  background: #4f6bed;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+button[type="submit"]:hover { opacity: 0.92; }
